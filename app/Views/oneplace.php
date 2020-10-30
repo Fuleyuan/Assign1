@@ -9,6 +9,10 @@
 		<p><strong>Name:</strong> {name}</p>
 		<p><strong>Description:</strong> {description}</p>
 		<p><strong>Tourism site:</strong> {link}</p>
+                <p><strong>Birth:</strong> {birth}</p>
+                <p><strong>Gender:</strong> {gender}</p>
+                 <p><strong>Constellation:</strong> {constellation}</p>
+                 <p><strong>Hair color:</strong> {hair color}</p>
 		<p><img src="/image/{image}"/></p>
 		<p><a href="/home">Home</a></p>
 	</body>
