@@ -63,6 +63,10 @@ class Travel extends BaseController {
                 $table->addRow( $record['name']);
                 $table->addRow( $record['description']);
                 $table->addRow( $record['link']);
+                $table->addRow( $record['birth']);
+                $table->addRow( $record['gender']);
+                $table->addRow( $record['constellation']);
+                $table->addRow( $record['hair color']);
                 $table->addRow( "<img src=\"/image/".$record['image']."\"/>");
           $template = [
             'table_open' => '<table cellpadding="5px">',
