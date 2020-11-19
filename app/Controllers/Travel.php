@@ -34,8 +34,8 @@ class Travel extends BaseController {
             'row_alt_start' => '<tr style="background-color:grey">',
         ];
         $fields = [
-            'title' => 'Travel Destinations',
-            'heading' => 'Travel Destinations',
+            'title' => 'Harry Poter',
+            'heading' => 'Harry Poter',
             'footer' => 'Copyright Xavier (Leyuan Fu)'
         ];   
         $table->setTemplate($template);
@@ -70,8 +70,8 @@ class Travel extends BaseController {
             'row_alt_start' => '<tr style="background-color:grey">',
         ];
                 $fields = [
-            'title' => 'One Place',
-            'heading' => 'One Place',
+            'title' => 'Character',
+            'heading' => 'Character',
             'footer' => '(Leyuan Fu)'
         ];   
                 // and have it render the template with those 
