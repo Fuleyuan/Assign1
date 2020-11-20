@@ -28,4 +28,4 @@ return $parser->setData($record)
 // and have it render the template with those
 ->render('oneplace');
 }
-}1
+}
